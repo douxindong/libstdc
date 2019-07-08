@@ -6,5 +6,7 @@ Xcode10中删除的`libstdc++`库
 $git clone https://github.com/douxindong/libstdc.git
 $cd libstdc
 $./install.sh
+$./install-beta.sh //部分报错不影响
+
 ```
 ok
