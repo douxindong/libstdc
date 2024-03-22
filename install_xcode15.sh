@@ -1,6 +1,6 @@
 #!/bin/bash
-
-xcode_path="/xxx/Xcode.app"
+#USAGE: sudo bash install_xcode15.sh
+xcode_path="/Applications/Xcode15.app"
 
 if [ $EUID != 0 ]; then
     sudo "$0" "$@"
